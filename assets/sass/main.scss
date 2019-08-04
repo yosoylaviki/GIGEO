@@ -6,9 +6,9 @@
 @import 'vendors/bootstrap-4.3.1/bootstrap';
 
 //base
-@import 'abstracts/base';
-@import 'abstracts/reset';
-@import 'abstracts/typography';
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
 
 //layout
 @import 'layout/navbar';
@@ -17,10 +17,9 @@
 @import 'layout/section';
 
 //components
-@import 'components/buttons';
-@import 'components/navigations';
-@import 'components/thumbnails';
+@import 'components/logo';
 
-//page
+//pages
+@import 'pages/home';
 
 //themes
